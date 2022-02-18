@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./imagenes/logo.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de Inicio - Netflix / Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Material+Icons+Round"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/series.css" />
+    <link rel="stylesheet" href="./css/pelis.css" />
+  </head>
+  <body>
+    <header>
+      
+          <img id="logo" src="./imagenes/netflix.png" alt="logo"/>
+     
+        
+      <nav>
+        <ul>
+          <li><a href="./home.html">Inicio</a></li>
+          <li><a href="https://netflix.com">Series</a></li>
+          <li><a href="https://netflix.com">Películas</a></li>
+          <li><a href="https://netflix.com">Novedades Populares</a></li>
+          <li><a href="https://netflix.com">Mi lista</a></li>
+        </ul>
+      </nav>
+      <div class="icon-search">
+        <span class="material-icons-outlined"> search </span>
+        <p>DVD</p>
+        <span class="material-icons-round"> notifications </span>
+
+        <div id="Perfil">
+            <a href="index.html">
+                <img src="./imagenes/dog-perfil.jpg" alt="Perfil 1" />
+            </a>
+          
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <article id="video-start">
+        <video id="video" width="100%" height="100%" autoplay muted >
+          <source
+            width="100%"
+            height="100%"
+            src="./videos/EL JUEGO DEL CALAMAR TEMPORADA 2 TRAILER OFICIAL NETFLIX 2022.mp4"
+            type="video/mp4"
+          />
+        </video>
+
+        <div id="texto-title">
+          <img src="./imagenes/calamar.png" alt="Titulo del calamar" /> <br />
+          <p>
+            Todo empieza cuando un joven que se lleva mal con todo el mundo,
+            tiene deudas y se gasta todo el dinero en apuestas, recibe una
+            visita un tanto peculiar. <br />
+            Un hombre uniformado le ofrece dinero a cambio de pegarle. Accede y
+            gana dinero. Luego le entrega una tarjeta para que participe en el
+            juego del calamar.
+          </p>
+
+          <div id="botones-title">
+            <div class="botones">
+              <span id="play" class="material-icons-round"> play_arrow </span>
+              <p id="repro">Reproducir</p>
+            </div>
+            <div class="botones">
+              <span class="material-icons-outlined"> info </span>
+              <p>Más Información</p>
+            </div>
+          </div>
+        </div>
+        <div id="pg">PG</div>
+      </article>
+
+      <section class="lista-pelis">
+        <h2>Continuar viendo contenido > </h2>
+        <div class="contenedor-pelis">
+          <div class="card-pelis">
+            <img id="top-10" src="./imagenes/top10.png" alt="top 10">
+            <img 
+              src="./series-img/betty-la-fea.jpg"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+
+          <div class="card-pelis">
+              <img src="./imagenes/logo.png" alt="logo" id="logo-peli">
+              <div id="new-episodio">Nuevos Episodios</div>
+            <img
+              src="./series-img/desencanto.jpg"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img id="top-10" src="./imagenes/top10.png" alt="top 10">
+            <img
+              src="./series-img/13_reasons_why_season.jpg"
+              alt="13 Reason why"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img src="./imagenes/logo.png" alt="logo" id="logo-peli">
+            <div id="new-episodio">Nuevos Episodios</div>
+            <img
+              src="./series-img/control z.jpg"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img
+              src="./series-img/los 100.jpg"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img src="./imagenes/logo.png" alt="logo" id="logo-peli">
+            <div id="new-episodio">Nuevos Episodios</div>
+            <img
+              src="./series-img/strangerthings.jfif"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img id="top-10" src="./imagenes/top10.png" alt="top 10">
+            <img
+              src="./series-img/vikingos.jfif"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="lista-pelis-2">
+        <h2>Tendencias</h2>
+        <div class="contenedor-pelis">
+          <div class="card-pelis">
+            <img id="top-10" src="./imagenes/top10.png" alt="top 10">
+            <img 
+              src="./series-img/betty-la-fea.jpg"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+
+          <div class="card-pelis">
+              <img src="./imagenes/logo.png" alt="logo" id="logo-peli">
+              <div id="new-episodio">Nuevos Episodios</div>
+            <img
+              src="./series-img/desencanto.jpg"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img id="top-10" src="./imagenes/top10.png" alt="top 10">
+            <img
+              src="./series-img/13_reasons_why_season.jpg"
+              alt="13 Reason why"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img src="./imagenes/logo.png" alt="logo" id="logo-peli">
+            <div id="new-episodio">Nuevos Episodios</div>
+            <img
+              src="./series-img/control z.jpg"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img
+              src="./series-img/los 100.jpg"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img src="./imagenes/logo.png" alt="logo" id="logo-peli">
+            <div id="new-episodio">Nuevos Episodios</div>
+            <img
+              src="./series-img/strangerthings.jfif"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img id="top-10" src="./imagenes/top10.png" alt="top 10">
+            <img
+              src="./series-img/vikingos.jfif"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+        </div>
+      </section>
+
+      
+      <section class="lista-pelis-2">
+        <h2>Mi lista </h2>
+        <div class="contenedor-pelis">
+          <div class="card-pelis">
+            <img id="top-10" src="./imagenes/top10.png" alt="top 10">
+            <img 
+              src="./series-img/betty-la-fea.jpg"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+
+          <div class="card-pelis">
+              <img src="./imagenes/logo.png" alt="logo" id="logo-peli">
+              <div id="new-episodio">Nuevos Episodios</div>
+            <img
+              src="./series-img/desencanto.jpg"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img id="top-10" src="./imagenes/top10.png" alt="top 10">
+            <img
+              src="./series-img/13_reasons_why_season.jpg"
+              alt="13 Reason why"
+              class="imagen-portada"
+            />
+          </div>
+         
+          <div class="card-pelis">
+            <img
+              src="./series-img/los 100.jpg"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img src="./imagenes/logo.png" alt="logo" id="logo-peli">
+            <div id="new-episodio">Nuevos Episodios</div>
+            <img
+              src="./series-img/strangerthings.jfif"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img id="top-10" src="./imagenes/top10.png" alt="top 10">
+            <img
+              src="./series-img/vikingos.jfif"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+        </div>
+      </section>
+      
+      <section class="lista-pelis-2">
+        <h2>Animes </h2>
+        <div class="contenedor-pelis">
+          <div class="card-pelis">
+            <img id="top-10" src="./imagenes/top10.png" alt="top 10">
+            <img 
+              src="./series-img/betty-la-fea.jpg"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+
+          <div class="card-pelis">
+              <img src="./imagenes/logo.png" alt="logo" id="logo-peli">
+              <div id="new-episodio">Nuevos Episodios</div>
+            <img
+              src="./series-img/desencanto.jpg"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img id="top-10" src="./imagenes/top10.png" alt="top 10">
+            <img
+              src="./series-img/13_reasons_why_season.jpg"
+              alt="13 Reason why"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img src="./imagenes/logo.png" alt="logo" id="logo-peli">
+            <div id="new-episodio">Nuevos Episodios</div>
+            <img
+              src="./series-img/control z.jpg"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img
+              src="./series-img/los 100.jpg"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img src="./imagenes/logo.png" alt="logo" id="logo-peli">
+            <div id="new-episodio">Nuevos Episodios</div>
+            <img
+              src="./series-img/strangerthings.jfif"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img id="top-10" src="./imagenes/top10.png" alt="top 10">
+            <img
+              src="./series-img/vikingos.jfif"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+        </div>
+      </section>
+      
+      <section class="lista-pelis-2">
+        <h2>Solo en Netflix </h2>
+        <div class="contenedor-pelis">
+          <div class="card-pelis">
+            <img id="top-10" src="./imagenes/top10.png" alt="top 10">
+            <img 
+              src="./series-img/betty-la-fea.jpg"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+
+          <div class="card-pelis">
+              <img src="./imagenes/logo.png" alt="logo" id="logo-peli">
+              <div id="new-episodio">Nuevos Episodios</div>
+            <img
+              src="./series-img/desencanto.jpg"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img id="top-10" src="./imagenes/top10.png" alt="top 10">
+            <img
+              src="./series-img/13_reasons_why_season.jpg"
+              alt="13 Reason why"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img src="./imagenes/logo.png" alt="logo" id="logo-peli">
+            <div id="new-episodio">Nuevos Episodios</div>
+            <img
+              src="./series-img/control z.jpg"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img
+              src="./series-img/los 100.jpg"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img src="./imagenes/logo.png" alt="logo" id="logo-peli">
+            <div id="new-episodio">Nuevos Episodios</div>
+            <img
+              src="./series-img/strangerthings.jfif"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img id="top-10" src="./imagenes/top10.png" alt="top 10">
+            <img
+              src="./series-img/vikingos.jfif"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+        </div>
+      </section>
+      
+      <section class="lista-pelis-2">
+        <h2>Tendencias </h2>
+        <div class="contenedor-pelis">
+          <div class="card-pelis">
+            <img id="top-10" src="./imagenes/top10.png" alt="top 10">
+            <img 
+              src="./series-img/betty-la-fea.jpg"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+
+          <div class="card-pelis">
+              <img src="./imagenes/logo.png" alt="logo" id="logo-peli">
+              <div id="new-episodio">Nuevos Episodios</div>
+            <img
+              src="./series-img/desencanto.jpg"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img id="top-10" src="./imagenes/top10.png" alt="top 10">
+            <img
+              src="./series-img/13_reasons_why_season.jpg"
+              alt="13 Reason why"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img src="./imagenes/logo.png" alt="logo" id="logo-peli">
+            <div id="new-episodio">Nuevos Episodios</div>
+            <img
+              src="./series-img/control z.jpg"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img
+              src="./series-img/los 100.jpg"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img src="./imagenes/logo.png" alt="logo" id="logo-peli">
+            <div id="new-episodio">Nuevos Episodios</div>
+            <img
+              src="./series-img/strangerthings.jfif"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img id="top-10" src="./imagenes/top10.png" alt="top 10">
+            <img
+              src="./series-img/vikingos.jfif"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+        </div>
+      </section>
+      
+      <section class="lista-pelis-2">
+        <h2>Animación </h2>
+        <div class="contenedor-pelis">
+          <div class="card-pelis">
+            <img id="top-10" src="./imagenes/top10.png" alt="top 10">
+            <img 
+              src="./series-img/betty-la-fea.jpg"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+
+          <div class="card-pelis">
+              <img src="./imagenes/logo.png" alt="logo" id="logo-peli">
+              <div id="new-episodio">Nuevos Episodios</div>
+            <img
+              src="./series-img/desencanto.jpg"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img id="top-10" src="./imagenes/top10.png" alt="top 10">
+            <img
+              src="./series-img/13_reasons_why_season.jpg"
+              alt="13 Reason why"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img src="./imagenes/logo.png" alt="logo" id="logo-peli">
+            <div id="new-episodio">Nuevos Episodios</div>
+            <img
+              src="./series-img/control z.jpg"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img
+              src="./series-img/los 100.jpg"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img src="./imagenes/logo.png" alt="logo" id="logo-peli">
+            <div id="new-episodio">Nuevos Episodios</div>
+            <img
+              src="./series-img/strangerthings.jfif"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+          <div class="card-pelis">
+            <img id="top-10" src="./imagenes/top10.png" alt="top 10">
+            <img
+              src="./series-img/vikingos.jfif"
+              alt="Betty la fea"
+              class="imagen-portada"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
