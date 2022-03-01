@@ -1,0 +1,155 @@
+.lista-pelis{
+    width: 100%;
+    height: fit-content;
+    padding-top: 4%;
+    height: fit-content;
+    background-color: transparent;
+    position: static;
+}
+.lista-pelis h2{
+    margin-left: 4%;
+    color: white;
+    opacity: 0.9;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.lista-pelis h2:hover{
+    opacity: 1;
+}
+
+.lista-pelis-2{
+    height: fit-content;
+    width: 100%;
+    height: fit-content;
+    padding-top: 15px;
+    background-color: transparent;
+    position: static;
+}
+.lista-pelis-2 h2{
+    display: flex;
+    font-size: 1.2rem;
+    margin-left: 4%;
+    color: white;
+    opacity: 0.9;
+    cursor: pointer;
+}
+.lista-pelis-2 h2:hover{
+    opacity: 1;
+}
+
+.contenedor-pelis{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.slide-pelis{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+    scroll-behavior: smooth;
+}
+.titulo-indica{
+    width: 100%;
+    display: flex;
+    padding-right: 8%;
+    justify-content: space-between;
+}
+.indicadores button{
+    background-color: white;
+    height: 3px;
+    width: 10px;
+    cursor: pointer;
+    border: none;
+    margin-right: 2px;
+}
+.indicadores button:hover,
+.indicadores button:active{
+    background-color: red;
+}
+.flecha-izquierda, .flecha-derecha{
+    width: 4%;
+    height: 100%;
+    margin:auto;
+    padding: 5% 0%;
+    position: relative;
+    z-index: 15;
+    cursor: pointer;
+    background-color: transparent;
+    border-style: none;
+    transition: .2s ease all;
+  }
+  .flecha-izquierda:hover, .flecha-derecha:hover{
+    color: white;
+  }
+  
+.card-pelis{
+    width: 270px;
+    height: 180px;
+    margin: 10px;
+    border-radius: 5px;
+    position: relative;
+    transition: .3s all ease;
+    
+}
+.slide-pelis .card-pelis:first-of-type{
+    margin-left: 1%;
+}
+.card-pelis img{
+    transition: .3s all ease;
+    width: 270px;
+    height: 180px;
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#top-10{
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    right: 0;
+    z-index: 3;
+}
+#logo-peli{
+    margin-top: 8px;
+    margin-left: 8px;
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    z-index: 3;
+}
+#new-episodio{
+    margin-top: 8px;
+    position: absolute;
+    width: 10%x;
+    height: fit-content;
+    padding: 5px;
+    bottom: 10px;
+    background-color: red;
+    z-index: 3;
+}
+
+/* Progreso de los videos*/
+
+.progress{
+    display: flex;
+  }
+  
+  .progress progress{
+    width: 90%;
+    height: 3.5px;
+    background-color: gray;
+    border-radius: 50px;
+    margin: auto;
+  }
+  
+  progress::-webkit-progress-bar {
+    background-color: rgb(78, 78, 78);
+    border-radius: 50px;
+    
+  }
+  progress::-webkit-progress-value {
+    background-color: rgb(221, 0, 0);
+    border-radius: 50px;
+  }
+  
